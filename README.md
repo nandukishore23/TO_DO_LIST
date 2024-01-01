@@ -1,5 +1,5 @@
 # TO_DO_LIST
-## Add a New project to your TO DO LIST
+## Add a New Project To Your TO DO LIST
 ![Screenshot (40)](https://github.com/nandukishore23/TO_DO_LIST/assets/109900154/22fcd59f-a7b5-4b30-bc1c-23c9bc434592)
 ## Give The Name To The Project
 ![Screenshot (41)](https://github.com/nandukishore23/TO_DO_LIST/assets/109900154/d04e319f-01db-4abe-9f83-3b88a6ee74da)
