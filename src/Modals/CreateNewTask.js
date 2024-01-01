@@ -36,7 +36,7 @@ const CreateNewTask = ({ modal, toggle, save }) => {
     <>
     <div className='modals'>
       <Modal isOpen={modal} toggle={toggle} className="custom-modal">
-        <ModalHeader toggle={toggle}>Create Task</ModalHeader>
+        <ModalHeader toggle={toggle}>Add New Task</ModalHeader>
         <ModalBody>
           <form className='task-form'>
             <div className='form-group name'>
