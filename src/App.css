@@ -1,0 +1,308 @@
+
+
+.sidebar {
+  width: 240px;
+  min-height: 1024px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: absolute; 
+}
+
+.task-board {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 24px;
+  min-height: 292px;
+}
+
+.heading{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  border-bottom: 1px solid rgba(235, 238, 252, 1);
+  padding: 16px 24px 16px 24px;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  height: 60px;
+  line-height: 28px;
+}
+
+.applogo {
+  width: 16px;
+  height: 15.4;
+  top: 2.3px;
+  left:2px;
+}
+
+.task-container{
+  gap: 10px;
+  padding: 0px 10px 0px 10px;
+  min-height: 152px;
+  display: grid;
+}
+
+.projectList{
+  
+}
+
+.projectList p{
+  padding: 10px 24px 10px 24px;
+  width: 220px;
+  border-radius: 8px;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  height: 44px;
+  gap: 10px;
+  display: flex;
+}
+
+.projectList p:hover{
+  background-color: rgba(235, 238, 252, 1);
+}
+
+.projectList p.active {
+  background-color:rgba(235, 238, 252, 1);
+}
+
+.projectBtn {
+  height: 32px;
+  border-top: 1px solid rgba(235, 238, 252, 1);
+  padding: 10px 24px 10px 24px;
+  gap: 10px;
+  display: flex;
+}
+.projectBtn p{
+  height: 20px;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 450;
+  color: rgba(54, 89, 226, 1);
+  cursor: pointer;
+}
+
+.projectBtn p:hover{
+  font-size: 12.5px;
+}
+.content{
+  min-Width: 1150px;
+  min-Height: 1024px;
+  margin-Left:  240px;
+}
+
+.projectName {
+  height: 60px;
+  display: flex;
+  justify-content: left;
+  border-bottom: 1px solid rgba(235, 238, 252, 1);
+  padding: 16px 24px 16px 24px;
+  gap: 10px;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.projectName p{
+  height: 28px;
+  font-weight: 600;
+  size: 18px;
+  line-height: 28px;
+}
+.frames{
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 152px;
+
+}
+.frame1, .frame2, .frame3, .frame4{
+  width: 260px;
+  margin-top: 20px;
+  margin-left: 24px;
+  gap: 20px;
+  display:grid;
+
+}
+.head{
+  width: 270px;
+  height: 48px;
+}
+.frame-heading {
+  display: flex;
+  border-radius: 20px;
+  width:max-content;
+  height:32px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 5px 10px 5px 10px;
+}
+.line {
+  position: relative;
+  border-right: 2px solid rgb(218, 214, 214);
+  min-height: 821px;
+  width: 270px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.line::before,
+.line::after {
+  content: '';
+  position: absolute;
+  width: 8px; 
+  height: 8px; 
+  background-color: rgb(218, 214, 214);
+  border-radius: 50%; 
+}
+
+.line::before {
+  top: 0; 
+  transform: translate(3320%, -100%);
+}
+
+.line::after {
+  bottom: 0; 
+  transform: translate(3320%, 50%);
+}
+
+.cards{
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.projectTaskList{
+  display: flex;
+  width: 260px;
+  height: 114px;
+  border-radius: 8px;
+  padding: 16px;
+  gap: 10px;
+  color:rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 8px 0px rgba(54, 89, 226, 0.16);
+}
+
+.projectTaskList:hover{
+  box-shadow: 0px 8px 16px 8px rgba(54, 89, 226, 0.16);
+  cursor: pointer;
+}
+
+.title{
+  width: max-content;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.inner{
+  width: 186px;
+  height: 48px;
+  gap: 24px;
+  display: flex;
+}
+.div1, .div2{
+  width: 81px;
+  height: 48px;
+  gap: 4px;
+  display: flex;
+  flex-direction: column;
+}
+.label{
+  height: 20px;
+  width: 54px;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: 'Nunito Sans';
+  color: rgba(119, 119, 119, 1);
+}
+.date{
+  width: 81px;
+  height: 24px;
+  display: flex;
+  border-radius: 8px;
+  padding: 0px 8px 4px 8px;
+  gap: 10px;
+  display: flex;
+}
+.date p{
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+}
+.addnewbtn{
+  width: 260px;
+  height: 32px;
+  gap: 32px;
+  border-radius: 8px;
+  padding: 3px 8px 10px 8px;
+  border: none;
+}
+.addnewbtn:hover{
+  box-shadow: 0px 2px 4px 2px rgba(54, 89, 226, 0.16);
+}
+
+.name{
+  gap: 4px;
+  display: flex;
+  flex-direction: column;
+}
+.name label{
+  font-size: 12px;
+  padding: 0 5px;
+}
+
+.name input, .data input, .status select{
+  border-radius: 8px;
+  border: 1px solid rgba(185, 192, 203, 1);
+  color: rgba(185, 192, 203, 1);
+  padding:4px, 12px, 4px, 12px
+}
+
+.form-control::placeholder {
+  color: rgba(185, 192, 203, 1);
+
+}
+
+
+.task-form{
+  width: 100%;
+  gap:10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dates{
+  display: flex;
+  width: 460px;
+  gap: 10px;
+}
+.dates label{
+  font-size: 12px;
+  padding: 0 5px;
+}
+.data{
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  width: 400px;
+  gap: 4px;
+}
+
+.status{
+  display: flex;
+  flex-direction: column;
+  width: 460px;
+  gap: 5px;
+}
+
+.status label{
+  font-size: 12px;
+  padding: 0 5px;
+}
+
+.modal-footer{
+  display: flex;
+}
