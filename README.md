@@ -1,6 +1,9 @@
 # TO_DO_LIST
+### "Add a New project to your TO DO LIST"
 ![Screenshot (40)](https://github.com/nandukishore23/TO_DO_LIST/assets/109900154/22fcd59f-a7b5-4b30-bc1c-23c9bc434592)
+### "Give The Name To The Project"
 ![Screenshot (41)](https://github.com/nandukishore23/TO_DO_LIST/assets/109900154/d04e319f-01db-4abe-9f83-3b88a6ee74da)
+### "Add task"
 ![Screenshot (35)](https://github.com/nandukishore23/TO_DO_LIST/assets/109900154/72f206dd-4ecb-4432-8d88-389a293c36c8)
 ![Screenshot (36)](https://github.com/nandukishore23/TO_DO_LIST/assets/109900154/c003cc02-d78c-40bc-8e69-bbd53d20b710)
 ![Screenshot (37)](https://github.com/nandukishore23/TO_DO_LIST/assets/109900154/77bba650-3db0-4087-ac79-28c42964d23b)
